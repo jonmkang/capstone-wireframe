@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type='text/css' rel='stylesheet' href='AddCocktail.css'>
+</head>
+<body>
+    <main>
+        <header>
+            Tabletop Bartender
+            <div>
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+        </header>
+        <section id="addCocktail">
+            <h1>Add your creation:</h1>
+            <form class='cocktail-form'>
+                <label for="cocktail-name">Cocktail Name</label>
+                <input placeholder='example cocktail' type='text' name='cocktail-name'><br/>
+                <div class='ingredients'>
+                    This box has ingredients and a ticker box to show how many ounces each ingredient should have, and gives the option to add more ingredients via a button.  The ingredients input box shows a search dropdown box to select from ingredients in the server/database
+                </div>
+                <div class="description">
+                    This box contains a list of instructions on how to create the cocktail
+                </div>
+                <button>Add Image of Cocktail</button><br/>
+                <button type='submit'>Submit Cocktail</button>
+            </form>
+        </section>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>

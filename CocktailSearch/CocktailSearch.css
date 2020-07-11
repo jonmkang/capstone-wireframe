@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    min-height: 95vh;
+}
+
+header{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.cocktail-search{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.cocktail-result{
+    margin: 20px;
+    border: 2px black solid;
+}
+
+.cocktail-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h4{
+    text-align: center;
+}
+.image{
+    border: 3pt black solid;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+}

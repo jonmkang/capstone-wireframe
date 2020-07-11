@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+header{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+#description{
+    height: 30vh;
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#creation{
+    height: 30vh;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+}
+
+form{
+    height: 30vh;
+    padding: 30px;
+    text-align: center;
+}
